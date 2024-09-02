@@ -15,6 +15,7 @@ function addTask() {
   }
 
   inputBox.value = "";
+  saveData();
 }
 
 addBtn.addEventListener("click", addTask);
