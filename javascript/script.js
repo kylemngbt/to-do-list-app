@@ -17,3 +17,5 @@ function addTask() {
   inputBox.value = "";
 }
 
+addBtn.addEventListener("click", addTask);
+
